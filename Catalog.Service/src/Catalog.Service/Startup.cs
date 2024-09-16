@@ -1,9 +1,11 @@
 using Catalog.Service.Entities;
+using Common.Identity;
 using Common.MassTransit;
 using Common.MongoDB;
 using Common.Settings;
 using MassTransit;
 using MassTransit.Definition;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
 
 namespace Catalog.Service;
@@ -28,7 +30,8 @@ public class Startup
 
         services.AddMongo()
                 .AddMongoRepository<Item>("items")
-                .AddMassTransitWithRabbitMq();
+                .AddMassTransitWithRabbitMq()
+                .AddJwtBearerAuthentication();
 
         services.AddControllers(options =>
         {
@@ -62,6 +65,7 @@ public class Startup
 
         app.UseRouting();
 
+        app.UseAuthentication();
         app.UseAuthorization();
 
         app.UseEndpoints(endpoints =>

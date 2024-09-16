@@ -1,0 +1,12 @@
+H:\Test\Microservice\ItemStore\Play.Identity\src\Play.Identity.Contracts\bin\Release\net8.0\Play.Identity.Contracts.deps.json
+H:\Test\Microservice\ItemStore\Play.Identity\src\Play.Identity.Contracts\bin\Release\net8.0\Play.Identity.Contracts.dll
+H:\Test\Microservice\ItemStore\Play.Identity\src\Play.Identity.Contracts\bin\Release\net8.0\Play.Identity.Contracts.pdb
+H:\Test\Microservice\ItemStore\Play.Identity\src\Play.Identity.Contracts\obj\Release\net8.0\Play.Identity.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+H:\Test\Microservice\ItemStore\Play.Identity\src\Play.Identity.Contracts\obj\Release\net8.0\Play.Identity.Contracts.AssemblyInfoInputs.cache
+H:\Test\Microservice\ItemStore\Play.Identity\src\Play.Identity.Contracts\obj\Release\net8.0\Play.Identity.Contracts.AssemblyInfo.cs
+H:\Test\Microservice\ItemStore\Play.Identity\src\Play.Identity.Contracts\obj\Release\net8.0\Play.Identity.Contracts.csproj.CoreCompileInputs.cache
+H:\Test\Microservice\ItemStore\Play.Identity\src\Play.Identity.Contracts\obj\Release\net8.0\Play.Identity.Contracts.sourcelink.json
+H:\Test\Microservice\ItemStore\Play.Identity\src\Play.Identity.Contracts\obj\Release\net8.0\Play.Identity.Contracts.dll
+H:\Test\Microservice\ItemStore\Play.Identity\src\Play.Identity.Contracts\obj\Release\net8.0\refint\Play.Identity.Contracts.dll
+H:\Test\Microservice\ItemStore\Play.Identity\src\Play.Identity.Contracts\obj\Release\net8.0\Play.Identity.Contracts.pdb
+H:\Test\Microservice\ItemStore\Play.Identity\src\Play.Identity.Contracts\obj\Release\net8.0\ref\Play.Identity.Contracts.dll

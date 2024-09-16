@@ -3,14 +3,18 @@ using Catalog.Service.Dtos;
 using Catalog.Service.Entities;
 using Common;
 using MassTransit;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Catalog.Service.Controller;
 
 [ApiController]
 [Route("items")]
+[Authorize(Roles = AdminRole)]
 public class ItemsController : ControllerBase
 {
+    private const string AdminRole = "Admin";
+
     private readonly IRepository<Item> itemsRepository;
     private readonly IPublishEndpoint publishEndpoint;
 
@@ -53,7 +57,7 @@ public class ItemsController : ControllerBase
 
         await itemsRepository.CreateAsync(item);
 
-        await publishEndpoint.Publish(new CatalogItemCreated(item.Id, item.Name, item.Description));
+        await publishEndpoint.Publish(new CatalogItemCreated(item.Id, item.Name, item.Description, item.Price));
 
         return CreatedAtAction(nameof(GetByIdAsync), new { id = item.Id }, item);
     }
@@ -82,7 +86,7 @@ public class ItemsController : ControllerBase
         existingItem.Price = updateItemDto.Price;
         await itemsRepository.UpdateAsync(existingItem);
 
-        await publishEndpoint.Publish(new CatalogItemUpdated(existingItem.Id, existingItem.Name, existingItem.Description));
+        await publishEndpoint.Publish(new CatalogItemUpdated(existingItem.Id, existingItem.Name, existingItem.Description, existingItem.Price));
 
         return NoContent();
     }

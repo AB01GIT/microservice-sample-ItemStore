@@ -10,3 +10,4 @@ H:\Test\Microservice\ItemStore\Common\src\Common\obj\Release\net8.0\Common.dll
 H:\Test\Microservice\ItemStore\Common\src\Common\obj\Release\net8.0\refint\Common.dll
 H:\Test\Microservice\ItemStore\Common\src\Common\obj\Release\net8.0\Common.pdb
 H:\Test\Microservice\ItemStore\Common\src\Common\obj\Release\net8.0\ref\Common.dll
+H:\Test\Microservice\ItemStore\Common\src\Common\obj\Release\net8.0\Common.sourcelink.json

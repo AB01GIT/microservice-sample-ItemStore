@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "h:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Service\\Catalog.Service.csproj": {}
+    "H:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Service\\Catalog.Service.csproj": {}
   },
   "projects": {
-    "h:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Contracts\\Catalog.Contracts.csproj": {
+    "H:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Contracts\\Catalog.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "h:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Contracts\\Catalog.Contracts.csproj",
+        "projectUniqueName": "H:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Contracts\\Catalog.Contracts.csproj",
         "projectName": "Catalog.Contracts",
-        "projectPath": "h:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Contracts\\Catalog.Contracts.csproj",
+        "projectPath": "H:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Contracts\\Catalog.Contracts.csproj",
         "packagesPath": "C:\\Users\\Abolfazl\\.nuget\\packages\\",
-        "outputPath": "h:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Contracts\\obj\\",
+        "outputPath": "H:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Contracts\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Abolfazl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,8 +44,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -62,21 +67,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "h:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Service\\Catalog.Service.csproj": {
+    "H:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Service\\Catalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "h:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Service\\Catalog.Service.csproj",
+        "projectUniqueName": "H:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Service\\Catalog.Service.csproj",
         "projectName": "Catalog.Service",
-        "projectPath": "h:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Service\\Catalog.Service.csproj",
+        "projectPath": "H:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Service\\Catalog.Service.csproj",
         "packagesPath": "C:\\Users\\Abolfazl\\.nuget\\packages\\",
-        "outputPath": "h:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Service\\obj\\",
+        "outputPath": "H:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Abolfazl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,8 +101,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "h:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Contracts\\Catalog.Contracts.csproj": {
-                "projectPath": "h:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Contracts\\Catalog.Contracts.csproj"
+              "H:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Contracts\\Catalog.Contracts.csproj": {
+                "projectPath": "H:\\Test\\Microservice\\ItemStore\\Catalog.Service\\src\\Catalog.Contracts\\Catalog.Contracts.csproj"
               }
             }
           }
@@ -106,8 +115,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -115,7 +125,7 @@
           "dependencies": {
             "Common": {
               "target": "Package",
-              "version": "[1.0.2, )"
+              "version": "[1.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -141,7 +151,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400-preview.0.24324.5/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

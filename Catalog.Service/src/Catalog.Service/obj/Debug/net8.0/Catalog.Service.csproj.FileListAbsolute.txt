@@ -58,3 +58,15 @@ H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\bin\Debug\net
 H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\bin\Debug\net8.0\Newtonsoft.Json.dll
 H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\bin\Debug\net8.0\RabbitMQ.Client.dll
+H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\obj\Debug\net8.0\Catalog.Service.sourcelink.json
+H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\bin\Debug\net8.0\Catalog.Service.staticwebassets.endpoints.json
+H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Service\obj\Debug\net8.0\staticwebassets\msbuild.Catalog.Service.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

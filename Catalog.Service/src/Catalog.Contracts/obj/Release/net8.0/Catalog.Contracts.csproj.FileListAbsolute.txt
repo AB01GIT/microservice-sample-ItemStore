@@ -9,3 +9,4 @@ H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Contracts\obj\Release
 H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Contracts\obj\Release\net8.0\refint\Catalog.Contracts.dll
 H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Contracts\obj\Release\net8.0\Catalog.Contracts.pdb
 H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Contracts\obj\Release\net8.0\ref\Catalog.Contracts.dll
+H:\Test\Microservice\ItemStore\Catalog.Service\src\Catalog.Contracts\obj\Release\net8.0\Catalog.Contracts.sourcelink.json

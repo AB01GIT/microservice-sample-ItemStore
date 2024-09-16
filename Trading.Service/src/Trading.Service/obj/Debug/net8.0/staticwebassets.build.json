@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "FukTHKygyKe0PFhWYhVzEsbqXEnAeZAgkG+Npab6ybg=",
+  "Source": "Trading.Service",
+  "BasePath": "_content/Trading.Service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

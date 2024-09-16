@@ -1,0 +1,12 @@
+H:\Test\Microservice\ItemStore\Inventory.Service\src\Inventory.Contracts\bin\Release\net8.0\Inventory.Contracts.deps.json
+H:\Test\Microservice\ItemStore\Inventory.Service\src\Inventory.Contracts\bin\Release\net8.0\Inventory.Contracts.dll
+H:\Test\Microservice\ItemStore\Inventory.Service\src\Inventory.Contracts\bin\Release\net8.0\Inventory.Contracts.pdb
+H:\Test\Microservice\ItemStore\Inventory.Service\src\Inventory.Contracts\obj\Release\net8.0\Inventory.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+H:\Test\Microservice\ItemStore\Inventory.Service\src\Inventory.Contracts\obj\Release\net8.0\Inventory.Contracts.AssemblyInfoInputs.cache
+H:\Test\Microservice\ItemStore\Inventory.Service\src\Inventory.Contracts\obj\Release\net8.0\Inventory.Contracts.AssemblyInfo.cs
+H:\Test\Microservice\ItemStore\Inventory.Service\src\Inventory.Contracts\obj\Release\net8.0\Inventory.Contracts.csproj.CoreCompileInputs.cache
+H:\Test\Microservice\ItemStore\Inventory.Service\src\Inventory.Contracts\obj\Release\net8.0\Inventory.Contracts.sourcelink.json
+H:\Test\Microservice\ItemStore\Inventory.Service\src\Inventory.Contracts\obj\Release\net8.0\Inventory.Contracts.dll
+H:\Test\Microservice\ItemStore\Inventory.Service\src\Inventory.Contracts\obj\Release\net8.0\refint\Inventory.Contracts.dll
+H:\Test\Microservice\ItemStore\Inventory.Service\src\Inventory.Contracts\obj\Release\net8.0\Inventory.Contracts.pdb
+H:\Test\Microservice\ItemStore\Inventory.Service\src\Inventory.Contracts\obj\Release\net8.0\ref\Inventory.Contracts.dll

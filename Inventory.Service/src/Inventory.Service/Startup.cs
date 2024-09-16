@@ -1,9 +1,12 @@
 using System;
 using System.Net.Http;
+using Common.Identity;
 using Common.MassTransit;
 using Common.MongoDB;
+using GreenPipes;
 using Inventory.Service.Clients;
 using Inventory.Service.Entities;
+using Inventory.Service.Exceptions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -33,7 +36,13 @@ public class Startup
         services.AddMongo()
                 .AddMongoRepository<InventoryItem>("inventoryitems")
                 .AddMongoRepository<CatalogItem>("catalogitems")
-                .AddMassTransitWithRabbitMq();
+                .AddMassTransitWithRabbitMq(retryConfigurator =>
+                {
+                    retryConfigurator.Interval(3, TimeSpan.FromSeconds(5));
+                    retryConfigurator.Ignore(typeof(UnknownItemException));
+
+                })
+                .AddJwtBearerAuthentication();
 
         AddCatalogClient(services);
 
@@ -65,6 +74,7 @@ public class Startup
 
         app.UseRouting();
 
+        app.UseAuthentication();
         app.UseAuthorization();
 
         app.UseEndpoints(endpoints =>

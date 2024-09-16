@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Catalog.Contracts" Version="1.0.1" />
+    <PackageReference Include="common" Version="1.0.4" />
+    <PackageReference Include="Inventory.Contracts" Version="1.0.1" />
+    <PackageReference Include="masstransit" Version="7.3.1" />
+    <PackageReference Include="masstransit.aspnetcore" Version="7.3.1" />
+    <PackageReference Include="masstransit.mongodb" Version="7.3.1" />
+    <PackageReference Include="masstransit.rabbitmq" Version="7.3.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.7" />
+    <PackageReference Include="Play.Identity.Contracts" Version="1.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+</Project>

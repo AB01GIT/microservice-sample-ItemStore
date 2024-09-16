@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Common</id>
+    <version>1.0.3</version>
+    <authors>Common</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="1ebb7aceb1a34367a96f3716d4ef8fead0374759" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="MassTransit.AspNetCore" version="7.3.1" exclude="Build,Analyzers" />
+        <dependency id="MassTransit.RabbitMQ" version="7.3.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="8.0.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Driver" version="2.22.0" exclude="Build,Analyzers" />
+        <dependency id="microsoft.aspnetcore.authentication.jwtbearer" version="8.0.7" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="H:\Test\Microservice\ItemStore\Common\src\Common\bin\Release\net8.0\Common.dll" target="lib\net8.0\Common.dll" />
+  </files>
+</package>
